@@ -50,6 +50,17 @@ tested as incoming messages on another object
 
 Command messages should be mocked, while query messages should be stubbed
 
+## Mocks vs Stubs
+
+### Stub
+
+A stub is a stand in for another object. It's just there to make sure the rest
+of the code can run. No verifications are preformed on stubs.
+
+### Mock
+
+A mock has the same purpose as a stub but also to verify a message was sent.
+
 ## Contract Tests
 
 Contract tests exist to ensure a specific 'role' (or 'interface' by another -
