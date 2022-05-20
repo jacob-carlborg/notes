@@ -39,9 +39,9 @@ In programming terms they are "setters" and not "getters".
 
 * Messages that are sent from within the object itself (e.g. private methods).
 * Outgoing query messages (as they have no public side effects)
-* Outgoing command messages (use mocks and set expectations on behaviour to
+* Outgoing command messages (use mocks and set expectations on behavior to
     ensure rest of your code pass without error)
-* Incoming messages that have no dependants (just remove those tests)
+* Incoming messages that have no dependents (just remove those tests)
 
 Note: there is no point in testing outgoing messages because they should be
 tested as incoming messages on another object
