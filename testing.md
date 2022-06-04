@@ -1,5 +1,10 @@
 # Testing
 
+If you rearrange code without changing behavior and tests begin to fail, then
+the tests themselves are flawed. Tests that make assertions about how things
+are done, rather than what actually happens, are the prime contributors to this
+predicament.
+
 ## Object Under Test
 
 When using RSpec, use a named subject for the object under test. Example:
