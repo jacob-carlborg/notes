@@ -38,3 +38,9 @@ Changes to code can be subdivided into four distinct steps:
 1. parse and execute it
 1. parse, execute and use its result
 1. delete unused code
+
+As you’re following the rules:
+
+* In general, change only one line at a time.
+* Run the tests after every change.
+* If you go red, undo and make a better change.
