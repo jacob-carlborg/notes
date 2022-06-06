@@ -44,3 +44,18 @@ As you’re following the rules:
 * In general, change only one line at a time.
 * Run the tests after every change.
 * If you go red, undo and make a better change.
+
+### Focusing on Difference
+
+The good news is that a systematic application of the rules of refactoring
+converts difference to sameness, decomposing a problem into its constituent
+parts. The even better news is that this happens automatically. You don’t have
+to identify the underlying abstractions in advance of refactoring. If you
+merely write the code dictated by the rules, the abstractions will follow.
+
+It takes many small, iterative steps, and results in a solution that is
+discovered by refactoring.
+
+Te rules say to first identify the things that are most alike. This means that
+you should select the two branches that are most alike, and focus on making
+them identical.
